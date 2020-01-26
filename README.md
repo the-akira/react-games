@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 A Simple Games App made with ReactJS
 
-`git clone https://github.com/the-akira/react-games.git
+`git clone https://github.com/the-akira/react-games.git`
 
 ### Available Scripts
 
