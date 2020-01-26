@@ -1,0 +1,18 @@
+.page-item {
+	list-style: none;
+	display: inline-block;
+	padding: 5px 10px 5px 10px;
+	border: 1px solid #a8b0bf;
+	cursor: pointer;
+	color: #a8b0bf;
+	margin-right: 5px;
+	background-color: #202328;
+	border-radius: 2.5px;
+}
+
+.active {
+	color: black;
+	background-color: #a8b0bf;
+	opacity: 0.87;
+	border: 1px solid #202328;
+}

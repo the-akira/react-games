@@ -1,0 +1,16 @@
+body{
+	background-image: url(http://pixelartmaker.com/art/90f25d92550acbc.png);
+}
+
+.container{
+	border: 2.5px solid #a8b0bf;
+	color: #a8b0bf;
+	border-radius: 10px;
+	padding: 23px;
+	background-color: black;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	opacity: 0.959;
+}
