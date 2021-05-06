@@ -104,4 +104,3 @@ export function getGames() {
 export function getGame(id) {
   return games.find(g => g._id === id);
 }
-
