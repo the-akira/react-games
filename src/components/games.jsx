@@ -35,7 +35,7 @@ class Games extends Component {
 
     const filteredGames = allGames.filter(item => {
       return Object.keys(item).some(key =>
-          typeof item[key] === "string" && item[key].toLowerCase().includes(lowercasedFilter)
+        typeof item[key] === "string" && item[key].toLowerCase().includes(lowercasedFilter)
       );
     });
     

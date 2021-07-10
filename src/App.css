@@ -1,16 +1,16 @@
 body{
-	background-image: url(https://i.ibb.co/Wsnr6K1/background.png);
+  background-image: url(https://i.ibb.co/Wsnr6K1/background.png);
 }
 
 .container{
-	border: 2.5px solid #a8b0bf;
-	color: #a8b0bf;
-	border-radius: 10px;
-	padding: 23px;
-	background-color: black;
-	margin: auto;
-	margin-top: 50px;
-	margin-bottom: 50px;
-	text-align: center;
-	opacity: 0.959;
+  border: 2.5px solid #a8b0bf;
+  color: #a8b0bf;
+  border-radius: 10px;
+  padding: 23px;
+  background-color: black;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  opacity: 0.959;
 }
