@@ -17,7 +17,7 @@ const Pagination = props => {
           >
             <a onClick={() => onPageChange(page)}>
               {page}
-			      </a>
+            </a>
           </li>			
         ))}
       </ul>
