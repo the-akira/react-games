@@ -53,7 +53,7 @@ const games = [
     genre: { _id: "5b21ca3eeb7f6fbccd471818", name: "Platform-adventure" },
     publisher: "Blizzard",
     director: "Matthew Findley",
-    image: { url: "https://giantbomb1.cbsistatic.com/uploads/scale_small/8/87790/2958025-box_bthorne.png" }
+    image: { url: "https://playclassic.games/wp-content/uploads/2019/04/Blackthorne.jpg" }
   },
   {
     _id: "5b21ca3eeb7f6fbccd47181f",
