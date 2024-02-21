@@ -4,9 +4,6 @@
   font-family: 'Press Start 2P', cursive;
   margin: 6px 6px 12px 10px;
   font-size: 2.3rem;
-  background: -webkit-linear-gradient(#92999c,#1f2227);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
 }
 
 .icons{
@@ -20,5 +17,5 @@ i{
 }
 
 i:hover{
-  color: #323539;
+  opacity: 0.8;
 }

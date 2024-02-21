@@ -46,7 +46,7 @@ class Games extends Component {
 
         <Header />
 
-        <p>Showing <b>{filteredGames.length}</b> game's in the database.</p>
+        <p className="info">Showing <b>{filteredGames.length}</b> game's in the database.</p>
 
         <i className="fa fa-search fa-2x"></i>
         <input 

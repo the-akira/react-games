@@ -9,11 +9,8 @@ const Header = () => {
         <a href="https://github.com/the-akira" rel="noopener noreferrer" target="_blank">
           <i className="fab fa-github fa-2x social" aria-hidden="true"></i>
         </a>
-        <a href="https://twitter.com/akirascientist" rel="noopener noreferrer" target="_blank">
-          <i className="fab fa-twitter fa-2x social" aria-hidden="true"></i>
-        </a>
-        <a href="https://facebook.com/gabriellfelippe" rel="noopener noreferrer" target="_blank">
-          <i className="fab fa-facebook-square fa-2x social" aria-hidden="true"></i>
+        <a href="https://cc33z.pythonanywhere.com" rel="noopener noreferrer" target="_blank">
+          <i className="fas fa-globe fa-2x social" aria-hidden="true"></i>
         </a>
       </div>
     </div>
