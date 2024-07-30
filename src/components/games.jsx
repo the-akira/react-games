@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { getGames } from "../services/GameService";
-import Header from "./header"
+import Header from "./header";
 import Pagination from "./utils/pagination";
 import { paginate } from "./utils/paginate";
-import "./games.css"
+import "./games.css";
 
 class Games extends Component {
   state = {
@@ -22,8 +22,8 @@ class Games extends Component {
   };
 
   handleChange = event => {
-    this.setState({ filter: event.target.value });
-  }
+    this.setState({ filter: event.target.value, currentPage: 1 }); // Reset currentPage to 1 when filtering
+  };
 
   render() {
     const { length: count } = this.state.games;
@@ -43,17 +43,16 @@ class Games extends Component {
 
     return (
       <React.Fragment>
-
         <Header />
 
         <p className="info">Showing <b>{filteredGames.length}</b> game's in the database.</p>
 
         <i className="fa fa-search fa-2x"></i>
         <input 
-        className="pesquisa" 
-        placeholder="Filter games by: title, publisher or director" 
-        value={filter} 
-        onChange={this.handleChange} 
+          className="pesquisa"
+          placeholder="Filter games by: title, publisher or director"
+          value={filter}
+          onChange={this.handleChange}
         />
 
         <div className="games-container">
@@ -69,12 +68,11 @@ class Games extends Component {
         </div>
 
         <Pagination 
-        itemsCount={filteredGames.length} 
-        pageSize={pageSize} 
-        currentPage={currentPage} 
-        onPageChange={this.handlePageChange} 
+          itemsCount={filteredGames.length}
+          pageSize={pageSize}
+          currentPage={currentPage}
+          onPageChange={this.handlePageChange}
         />
-
       </React.Fragment>
     );
   }

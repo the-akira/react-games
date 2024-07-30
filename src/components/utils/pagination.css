@@ -1,18 +1,31 @@
 .page-item {
   list-style: none;
   display: inline-block;
-  padding: 5px 10px 5px 10px;
+  margin-right: 5px;
+}
+
+.page-item button {
+  padding: 5px 10px;
   border: 1px solid #a8b0bf;
   cursor: pointer;
   color: #a8b0bf;
-  margin-right: 5px;
   background-color: #202328;
   border-radius: 2.5px;
+  font: inherit;
 }
 
-.active {
-  color: black;
-  background-color: #a8b0bf;
+.page-item button:hover {
+  opacity: 0.8;
+}
+
+.page-item button:focus {
+  outline: none;
+  box-shadow: none; 
+}
+
+.page-item.active button {
+  color: black !important;
+  background-color: #a8b0bf !important;
   opacity: 0.87;
-  border: 1px solid #202328;
+  border: 1px solid #202328 !important;
 }
